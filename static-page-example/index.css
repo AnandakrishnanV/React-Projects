@@ -1,0 +1,26 @@
+html, body {
+    background-color: black;
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-self: center;
+}
+
+.nav-logo {
+    width: 70px;
+    padding: 10px;
+}
+
+.nav-items {
+    list-style: none;
+    display: flex;
+}
+
+.nav-items > li {
+    padding: 10;
+}

@@ -1,8 +1,8 @@
 import React from "react";
 
-function Main() {
+function Main(props) {
   return (
-    <div className="main--container">
+    <main className={props.darkMode ? "main--container dark" : "main--container"}>
       <h1 className="main--title">Fun Facts about Me</h1>
       <ul className="main--fact_list">
         <li>
@@ -26,7 +26,7 @@ function Main() {
           attention to detail
         </li>
       </ul>
-    </div>
+    </main>
   );
 }
 

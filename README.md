@@ -1,2 +1,2 @@
-# react-with-scrimba
+# React projects 
  
